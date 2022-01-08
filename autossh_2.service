@@ -1,0 +1,16 @@
+[Unit]
+Description=AutoSSH service for a reverse tunnel from some.example.com to localhost
+After=network-online.target
+
+[Service]
+User=root
+Type=simple
+Environment="AUTOSSH_GATETIME=0"
+ExecStart=/usr/bin/autossh -M 0 -N -T -q -o ServerAliveInterval=30 -o ServerAliveCountMax=3 -R 1222:localhost:4728 root@81.70.195.101
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/bin/kill -TERM $MAINPID
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
