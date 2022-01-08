@@ -1,1 +1,1 @@
-# -你就先ssh到云服务器, 再ssh -p 1222 localhost, http://blog.suexcxine.win/2018/09/13/nat_expose/, https://meaninglive.com/2021/05/14/%E4%BD%BF%E7%94%A8autossh%E5%AE%9E%E7%8E%B0%E5%8F%8D%E5%90%91ssh%E9%9A%A7%E9%81%93/
+# - 你就先ssh到云服务器, 再ssh -p 1222 localhost, http://blog.suexcxine.win/2018/09/13/nat_expose/, https://meaninglive.com/2021/05/14/%E4%BD%BF%E7%94%A8autossh%E5%AE%9E%E7%8E%B0%E5%8F%8D%E5%90%91ssh%E9%9A%A7%E9%81%93/
